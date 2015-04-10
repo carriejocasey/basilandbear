@@ -1,0 +1,638 @@
+/* mostly about
+–––––––––––––––––––––––––––––––––––––––––––––––––– */		
+
+#mostlyabout_hero {
+
+	height: 85vh;
+	width: 100%;
+	background: url(../images/mostlyabout/mostlybooks.png) no-repeat center center fixed;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+}
+
+.set-height2 {
+	height: 350px;
+}
+
+#project1 .six.columns {
+	/*margin-left: 0%;*/
+	width: 49%;
+}
+
+#project1 .banner1 {
+	background-image: url(../images/mostlyabout/flower_sketch.png);
+	background-size: cover; 
+}
+
+#project1 .banner2 {
+	background-image: url(../images/mostlyabout/flower_digital.jpg);
+	background-size: cover; 
+	background-position-y: -30px;
+	margin-top: 1%;
+	margin-left: 0%;
+}
+
+#project1 .banner3 {
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 0%;
+	padding-left: 95px;
+	padding-right: 95px;
+	font-size: 20px;
+}
+
+#project1 span {
+	font-style: italic; 
+}
+
+#project1 h4 {
+	color: #E63C2F;
+}
+
+#project1 .grid-pic1 {
+	background-image: url(../images/mostlyabout/mostlyendsheet.png);
+	background-size: cover; 
+	background-position: 0px -45px; 
+	margin-left: 0%;
+	margin-top: 4%;
+}
+
+#project1 .grid-pic2 {
+	background-image: url(../images/mostlyabout/mostlybinding.png);
+	background-size: cover; 
+	background-position: 0px -10px; 
+	margin-left: 2%;
+	margin-top: 4%;
+}
+
+#project1 .grid-pic3 {
+	background-image: url(../images/mostlyabout/mostlytitle.png);
+	background-size: cover; 
+	background-position: 0px -10px; 
+	margin-left: 0%;
+	margin-top: 2%;
+}
+
+#project1 .grid-pic4 {
+	background-image: url(../images/mostlyabout/mostlycontents.png);
+	background-size: cover; 
+	background-position: 0px -10px; 
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+#project1 .banner4 {
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 0%;
+	padding-left: 90px;
+	padding-right: 90px;
+	font-size: 20px;
+}
+
+#project1 .grid-pic5 {
+	background-image: url(../images/mostlyabout/mostlybeautiful.png);
+	background-size: cover; 
+	background-position: 0px -10px; 
+	margin-left: 0%;
+	margin-top: 4%;
+}
+
+#project1 .grid-pic6 {
+	background-image: url(../images/mostlyabout/mostlypassion.png);
+	background-size: cover; 
+	background-position: 0px -10px; 
+	margin-left: 2%;
+	margin-top: 4%;
+}
+
+#project1 .banner5 {
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 0%;
+	padding-left: 90px;
+	padding-right: 90px;
+	font-size: 20px;
+}
+
+#project1_img {
+	height: 35vh;
+	width: 100%;
+	background: url(../images/mostlyabout/mostlybooks.png) no-repeat center center fixed;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+/* lucy
+–––––––––––––––––––––––––––––––––––––––––––––––––– */		
+
+#lucy_hero {
+
+	height: 85vh;
+	width: 100%;
+	background: url(../images/lucy/lucytitle.png) no-repeat center center fixed;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+}
+
+#project2 .six.columns {
+	width: 49%;
+}
+
+#project2 .banner1 {
+	background-image: url(../images/lucy/lucyboat2.png);
+	background-size: cover; 
+	background-position-y: -180px;
+	height: 550px;
+}
+
+.lucy span {
+	font-style: italic; 
+}
+
+#project2 h4 {
+	color: #E63C2F;
+}
+
+#project2 .grid-pic1 {
+	background-image: url(../images/lucy/lucyflowers.png);
+	background-size: cover; 
+	background-position: 0px -45px; 
+	margin-left: 0%;
+	margin-top: 1%;
+}
+
+#project2 .grid-pic2 {
+	background-image: url(../images/lucy/lucyflowers2.png);
+	background-size: cover; 
+	background-position: 0px -40px; 
+	margin-left: 2%;
+	margin-top: 1%;
+}
+
+
+#project2 .banner2 {
+	background-image: url(../images/lucy/lucydiamonds.png);
+	background-size: cover; 
+	background-position-y: -170px;
+	height: 550px;
+	margin-top: 1%;
+	margin-left: 0%;
+}
+
+#project2 .banner3 {
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 0%;
+	padding-left: 95px;
+	padding-right: 95px;
+	font-size: 20px;
+}
+
+#project2 .grid-pic3 {
+	background-image: url(../images/lucy/lucybridge.png);
+	background-size: cover; 
+	background-position: 0px -60px; 
+	margin-left: 0%;
+	margin-top: 2%;
+}
+
+#project2 .grid-pic4 {
+	background-image: url(../images/lucy/lucydiamonds2.png);
+	background-size: cover; 
+	background-position: 0px -10px; 
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+#project2 .banner4 {
+	background-image: url(../images/lucy/lucytrain.png);
+	background-size: cover; 
+	background-position-y: -125px;
+	height: 600px;
+	margin-top: 1%;
+	margin-left: 0%;
+}
+
+#project2 .banner5 {
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 0%;
+	padding-left: 90px;
+	padding-right: 90px;
+	font-size: 20px;
+}
+
+#project2 .banner6 {
+	background-image: url(../images/lucy/lucydiamonds3.png);
+	background-size: cover; 
+	background-position-y: -150px;
+	height: 550px;
+	margin-top: 1%;
+	margin-left: 0%;
+}
+
+#project2_img {
+	height: 35vh;
+	width: 100%;
+	background: url(../images/lucy/lucytitle.png) no-repeat center center fixed;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+/* quilts
+–––––––––––––––––––––––––––––––––––––––––––––––––– */		
+
+#quilts_hero {
+
+	height: 85vh;
+	width: 100%;
+	background: url(../images/quilts/babyquilt1.png) no-repeat center center fixed;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+}
+
+#project3 .six.columns {
+	width: 49%;
+}
+
+#project3 .banner1 {
+	text-align: center;
+	margin-top: 3%;
+	margin-left: 0%;
+	padding-left: 95px;
+	padding-right: 95px;
+	font-size: 20px;
+}
+
+#project3 span {
+	font-style: italic; 
+}
+
+#project3 h4 {
+	color: #a6ebe2;
+}
+
+#project3 .banner2 {
+	background-image: url(../images/quilts/firstquilt1.png);
+	background-size: cover; 
+	background-position-y: -380px;
+	height: 500px;
+	margin-top: 0%;
+	margin-left: 0%;
+}
+
+#project3 .grid-pic1 {
+	background-image: url(../images/quilts/firstquilt2.png);
+	background-size: cover; 
+	background-position: 0px -230px; 
+	margin-left: 0%;
+	margin-top: 1%;
+}
+
+#project3 .grid-pic2 {
+	background-image: url(../images/quilts/firstquilt3.png);
+	background-size: cover; 
+	background-position: 0px -400px; 
+	margin-left: 2%;
+	margin-top: 1%;
+}
+
+#project3 .banner3 {
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 0%;
+	padding-left: 95px;
+	padding-right: 95px;
+	font-size: 20px;
+}
+
+#project3 .banner4 {
+	background-image: url(../images/quilts/babyquilt2.png);
+	background-size: cover; 
+	background-position-y: -140px;
+	height: 500px;
+	margin-top: 1%;
+	margin-left: 0%;
+}
+
+#project3 .grid-pic3 {
+	background-image: url(../images/quilts/babyquilt3.png);
+	background-size: cover; 
+	background-position: 0px -250px; 
+	margin-left: 0%;
+	margin-top: 2%;
+}
+
+#project3 .grid-pic4 {
+	background-image: url(../images/quilts/babyquilt4.png);
+	background-size: cover; 
+	background-position: 0px -350px; 
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+#project3 .banner5 {
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 0%;
+	padding-left: 90px;
+	padding-right: 90px;
+	font-size: 20px;
+}
+
+#project3 .banner6 {
+	background-image: url(../images/quilts/colorquilt5.png);
+	background-size: cover; 
+	background-position-y: -100px;
+	height: 500px;
+	margin-top: 1%;
+	margin-left: 0%;
+}
+
+#project3 .grid-pic5 {
+	background-image: url(../images/quilts/colorquilt2.png);
+	background-size: cover; 
+	background-position: 0px -500px; 
+	margin-left: 0%;
+	margin-top: 2%;
+}
+
+#project3 .grid-pic6 {
+	background-image: url(../images/quilts/colorquilt4.png);
+	background-size: cover; 
+	background-position: 0px -50px; 
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+#project3 .grid-pic7 {
+	background-image: url(../images/quilts/colorquilt1.png);
+	background-size: cover; 
+	background-position: 0px -50px; 
+	margin-left: 0%;
+	margin-top: 2%;
+}
+
+#project3 .grid-pic8 {
+	background-image: url(../images/quilts/colorquilt6.png);
+	background-size: cover; 
+	background-position: 0px -100px; 
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+
+#project3_img {
+	height: 35vh;
+	width: 100%;
+	background: url(../images/quilts/babyquilt1.png) no-repeat center center fixed;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+/* maxwell
+–––––––––––––––––––––––––––––––––––––––––––––––––– */		
+
+/*#maxwell_hero {
+
+	height: 85vh;
+	width: 100%;
+	background: url(../images/maxwell/header_img.blog@2x.jpg) no-repeat center center fixed;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+}
+
+.logo {
+	width: 200px;
+}
+
+#project4 .six.columns {
+	width: 49%;
+}
+
+
+#project4 span {
+	font-style: italic; 
+}
+
+.maxwellblue {
+	color: #5db9d1;
+}
+
+#project4 .grid-pic1 {
+	background-image: url(../images/maxwell/maxwell2.png);
+	background-size: cover; 
+	background-position: 0px -100px; 
+	margin-left: 0%;
+	margin-top: 1%;
+}
+
+#project4 .grid-pic2 {
+	background-image: url(../images/maxwell/maxwell1.png);
+	background-size: cover; 
+	background-position: 0px -130px; 
+	margin-left: 2%;
+	margin-top: 1%;
+}
+
+
+#project4 .banner2 {
+	background-image: url(../images/maxwell/header_img.faq@2x.jpg);
+	background-size: cover; 
+	background-position-y: 0px;
+	background-position-x: -125px; 
+	height: 500px;
+	margin-top: 1%;
+	margin-left: 0%;
+}
+
+#project4 .banner3 {
+	background-image: url(../images/maxwell/mhealth-infographic.png);
+	background-size: cover; 
+	background-position-y: 0px;
+	height: 2000px;
+	width: 49%;
+	margin-top: 1%;
+	margin-left: 0%;
+}
+
+#project4 .banner4 {
+	background-image: url(../images/maxwell/sales_brochure-01.png);
+	background-size: cover; 
+	background-position-y: 0px;
+	height: 2000px;
+	width: 49%;
+	margin-top: 1%;
+	margin-left: 2%;
+}
+
+#project4 .grid-pic3 {
+	background-image: url(../images/maxwell/app.mockup-08_wellness-fitbit-main.png);
+	background-size: cover; 
+	background-position: 0px 0px; 
+	width: 32%;
+	height: 755px;
+	margin-left: 0%;
+	margin-top: 2%;
+}
+
+#project4 .banner5 {
+	text-align: center;
+	margin-top: 5%;
+	margin-left: 0%;
+	padding-left: 90px;
+	padding-right: 90px;
+	font-size: 20px;
+}
+
+#project4 .grid-pic4 {
+	background-image: url(../images/maxwell/app.mockup-09_wellness-fitbit-details.png);
+	background-size: cover; 
+	background-position: 0px 0px; 
+	width: 32%;
+	height: 755px;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+#project4 .grid-pic5 {
+	background-image: url(../images/maxwell/app.mockup-10_wellness-fitbit-details-2.png);
+	background-size: cover; 
+	background-position: 0px 0px; 
+	width: 32%;
+	height: 755px;
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+
+#project4_img {
+	height: 35vh;
+	width: 100%;
+	background: url(../images/maxwell/header_img.blog@2x.png) no-repeat center center fixed;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+}*/
+
+
+/* sonorous
+–––––––––––––––––––––––––––––––––––––––––––––––––– */		
+
+#sonorous_hero {
+
+	height: 85vh;
+	width: 100%;
+	background: url(../images/sonorous/sonorous1.png) no-repeat center center fixed;
+	background-size: cover;
+	background-position-y: -180px; 
+	margin: 0 auto;
+	position: relative;
+}
+
+#project6 .six.columns {
+	width: 49%;
+}
+
+#project6 .grid-pic1 {
+	background-image: url(../images/sonorous/sonorous2.png);
+	background-size: cover; 
+	background-position: 0px -50px; 
+	margin-left: 0%;
+	margin-top: 0%;
+}
+
+#project6 .grid-pic2 {
+	background-image: url(../images/sonorous/sonorous3.png);
+	background-size: cover; 
+	background-position: 0px -20px; 
+	margin-left: 2%;
+	margin-top: 0%;
+}
+
+#project6 .banner1 {
+	background-image: url(../images/sonorous/sonorous4.png);
+	background-size: cover; 
+	background-position-y: -200px;
+	height: 600px;
+	margin-top: 2%;
+	margin-left: 0%;
+}
+
+#project6 span {
+	font-style: italic; 
+}
+
+#project6 h4 {
+	color: #a6ebe2;
+}
+
+#project6 .banner2 {
+	background-image: url(../images/sonorous/sonorous5.png);
+	background-size: cover; 
+	background-position-y: -215px;
+	height: 600px;
+	margin-top: 2%;
+	margin-left: 0%;
+}
+
+#project6 .grid-pic3 {
+	background-image: url(../images/sonorous/sonorous6.png);
+	background-size: cover; 
+	background-position: 0px -70px; 
+	margin-left: 0%;
+	margin-top: 2%;
+}
+
+#project6 .grid-pic4 {
+	background-image: url(../images/sonorous/sonorous7.png);
+	background-size: cover; 
+	background-position: 0px -30px; 
+	margin-left: 2%;
+	margin-top: 2%;
+}
+
+#project6 .banner3 {
+	background-image: url(../images/sonorous/sonorous8.png);
+	background-size: cover; 
+	background-position-y: -270px;
+	height: 500px;
+	margin-top: 2%;
+	margin-left: 0%;
+}
+
+
+#project6_img {
+	height: 35vh;
+	width: 100%;
+	background: url(../images/sonorous/sonorous1.png) no-repeat center center fixed;
+	background-size: cover;
+	margin: 0 auto;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

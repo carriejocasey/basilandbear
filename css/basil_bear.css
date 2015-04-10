@@ -1,0 +1,400 @@
+/* navigation
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#navBar {
+	height: 60px;
+	width: 100%;
+	margin-top: 30px;
+	background: #5d76dd;
+	position: absolute;
+	z-index: 100;
+}
+
+#navBar ul {
+	text-align: right;
+	font-size: 20px;
+	margin-top: -62px;
+}
+
+#navBar li {
+	list-style: none;
+	display: inline;
+	padding-right: 100px;
+
+}
+
+#navBar a {
+	color: white;
+	text-decoration: none; 
+}
+
+#navBar a:hover {
+    color: #a6ebe2;
+}
+
+#logo {
+	margin-top: -18px;
+	margin-left: 20px;
+}
+
+/* HOME PAGE CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+		/* hero image
+		–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+		#home_hero {
+
+		height: 80vh;
+		width: 100%;
+		background: url(../images/coffee.png) no-repeat center center fixed;
+		background-size: cover;
+		margin: 0 auto;
+		position: relative;
+
+		}
+
+		/* intro
+		–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+		.intro .four.columns {
+			text-align: right;
+			color: #5d76dd;
+			padding-left: 30px;
+		}
+
+		.intro .eight.columns {
+			font-size: 18px;
+			padding-top: 8px;
+			padding-right: 200px;
+		}
+
+
+		/* selected works and instagram feed
+		–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+		#title {
+			height: 60px;
+			width: 100%;
+			background: rgba(93, 118, 221, 1);
+			color: white;
+			padding: 20px;
+			text-align: center; 
+			z-index: 100px;
+		}
+
+		.carousel-inner {
+			height: 450px;
+		}
+
+		.carousel-inner img {
+			width: 100%;
+		}
+
+		.carousel-indicators {
+			bottom: -15px;
+		}
+
+		.set-height {
+			height: 450px;
+		}
+
+		.image1 {
+			background-image: url(../images/selected/aboutaboy.png);
+			background-size: cover; 
+		}
+
+		.image2 {
+			background-image: url(../images/selected/lucy.png);
+			background-size: cover; 
+		}
+
+		.image3 {
+			background-image: url(../images/selected/quilt.png);
+			background-size: cover; 
+		}
+
+		.image4 {
+			background-image: url(../images/selected/sonorous.png);
+			background-size: cover; 
+		}
+
+	/*	.image5 {
+			background-image: url(../images/selected/ash.png);
+			background-size: cover; 
+		}
+
+		.image6 {
+			background-image: url(../images/selected/sonorous.png);
+			background-size: cover; 
+		}*/
+
+		#insta {
+			height: 175px;
+			width: 100%;
+			background: #fff;
+			background: url(../images/coffee.png) no-repeat center center fixed;
+			background-size: cover;
+			color: white;
+			text-align: right;
+			margin-left: 0px;
+			padding: 320px 30px 0px 0px;
+		}
+
+
+
+/* WORK PAGE CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+		/* hero image
+		–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+		#work_hero {
+
+		height: 80vh;
+		width: 100%;
+		background: url(../images/works.png) no-repeat center center fixed;
+		background-size: cover;
+		background-position-y: -100px;
+		margin: 0 auto;
+		position: relative;
+
+		}
+
+		/* projects
+		–––––––––––––––––––––––––––––––––––––––––––––––––– */
+		.container {
+			max-width: 95%;
+		}
+
+		#projects .row {
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		#projects .six.columns {
+			height: 450px;
+			margin-left: 0%;
+			width: 50%;
+			background-position-x: -290px;
+			position: relative;
+			
+	/*		opacity: 1;
+			 -o-transition:.5s;
+			 -ms-transition:.5s;
+			 -moz-transition:.5s;
+			 -webkit-transition:.5s;
+			 /* ...and now for the proper property */
+			 transition:.5s;*/
+
+		}
+
+	/*	#projects .six.columns:hover {
+			opacity: .3;
+		}*/
+
+		.overlay {
+			color: #5d76dd;
+			font-size: 30px;
+			font-style: italic;
+			font-weight: lighter;
+			text-align: center;
+			vertical-align: middle;
+			width: 100%;
+			height: 450px;
+/*			background: rgba(93, 118, 221, 0.8);*/
+			background: rgba(0,0,0, .8);
+			z-index: 50;
+			position: absolute ;
+
+			opacity: 0;
+			 -o-transition:.5s;
+			 -ms-transition:.5s;
+			 -moz-transition:.5s;
+			 -webkit-transition:.5s;
+			 /* ...and now for the proper property */
+			 transition:.5s;*/
+		}
+
+		.overlay p {
+			margin-top: 215px;
+			text-align: center;
+		}
+
+		.overlay:hover {
+			opacity: 0.9;
+		}
+
+		#works_img {
+			height: 35vh;
+			width: 100%;
+			background: url(../images/works.png) no-repeat center center fixed;
+			background-size: cover;
+			margin: 0 auto;
+			position: relative;
+		}
+
+
+
+/* ABOUT PAGE CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+		/* hero image
+		–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+		#about_hero {
+
+		height: 80vh;
+		width: 100%;
+		background: url(../images/joy.png) no-repeat center center fixed;
+		background-size: cover;
+		margin: 0 auto;
+		position: relative;
+
+		}
+
+		/* about
+		–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+		.intro-about .four.columns {
+			text-align: right;
+			color: #5d76dd;
+			padding-left:110px;
+		}
+
+		.intro-about .eight.columns {
+			font-size: 18px;
+			padding-top: 8px;
+			padding-right: 200px;
+		}
+
+		.intro-about .eight.columns span {
+			font-style: italic;
+			font-weight: 600;
+			color: #5d76dd;
+			
+		}
+
+
+		/* about image
+		–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+		#about_img {
+			height: 35vh;
+			width: 100%;
+			background: url(../images/joy.png) no-repeat center center fixed;
+			background-size: cover;
+			margin: 0 auto;
+			position: relative;
+		}
+
+
+
+/* CONNECT PAGE CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+		/* hero image
+		–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+		#connect_hero {
+
+		height: 80vh;
+		width: 100%;
+		background: url(../images/clouds.png) no-repeat center center fixed;
+		background-size: cover;
+		margin: 0 auto;
+		position: relative;
+
+		}
+
+		/* connect
+		–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+		#connect .four.columns {
+			text-align: right;
+			color: #5d76dd;
+			padding-left:110px;
+		}
+
+		#connect .eight.columns {
+			font-size: 18px;
+			padding-top: 8px;
+			padding-right: 200px;
+			color: #5d76dd;
+		}
+
+		.button-primary {
+			background: #a6ebe2;
+			
+		}
+
+
+		/* about image
+		–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+		#connect_img {
+			height: 35vh;
+			width: 100%;
+			background: url(../images/clouds.png) no-repeat center center fixed;
+			background-size: cover;
+			margin: 0 auto;
+			position: relative;
+		}
+
+
+
+/* footer and social
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#footer {
+	border-top: 1px solid #a6ebe2;
+	border-bottom: 1px solid #a6ebe2;
+	margin-bottom: 100px;
+}
+
+#footer .row {
+	text-align: right;
+	color: #5d76dd;
+	padding-right: 40px;
+	padding-bottom: 60px;
+	padding-left: 40px;
+}
+
+#footer a {
+	color: #a6ebe2;
+	text-decoration: none; 
+}
+
+#footer a:hover {
+    color: #5d76dd;
+}
+
+#copyright {
+	color: #a6ebe2;
+	font-size: 15px;
+	padding-left: 80px;
+	position: relative;	
+	top: -60px;
+}
+
+#social_media ul {
+	text-align: right;
+	margin-top: -78px;
+	margin-right: 40px;
+}
+
+#social_media li {
+	list-style: none;
+	display: inline;
+	padding-right: 30px;
+
+}
+
+
+
